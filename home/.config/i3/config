@@ -249,7 +249,11 @@ exec "setxkbmap -layout no"
 exec_always xrandr --output DVI-D-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-0 --mode 1920x1080 --pos 3840x0 --rotate normal --output DP-5 --off --output DP-4 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --mode 1920x1080 --pos 0x0 --rotate normal
 
 # Change wallpaper with a keybind 
-bindsym $mod+Shift+w exec --no-startup-id feh --randomize --bg-scale Pictures/wallpapers/*
+## Random wallpaper
+bindsym Control+1 exec --no-startup-id feh --randomize --bg-scale Pictures/wallpapers/random/*
+## Animal wallpaper
+bindsym Control+2 exec --no-startup-id feh --randomize --bg-scale Pictures/wallpapers/animals/*
+
 # Set a random wallpaper
 exec --no-startup-id feh --randomize --bg-scale Pictures/wallpapers/*
 
