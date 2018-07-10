@@ -1,0 +1,48 @@
+! https://github.com/prmsrswt/dotfiles/blob/master/first-rice/.Xresources
+
+!--------------!
+! URXVT CONFIG !
+!--------------!
+
+urxvt.internalborder:	30
+urxvt.scrollBar:	false
+urxvt.letterspace:	-1
+urxvt.cursorcolor:	#d3d0c8
+
+urxvt.font: xft:hack:size=13, xft:PowerlineSymbols:size=12, xft:Roboto\ Mono\ for\ Powerline:size=12
+
+!urxvt.font: xft:Roboto\ Mono\ for\ Powerline:size=12
+!xft:font awesome 5 free solid:size=10
+!! larger history limit
+urxvt.saveLines: 1000000
+
+!! Perl extensions
+urxvt.perl-ext-common: default,matcher,font-size,clipboard
+!! Open urls in browser with Control-Click
+urxvt.urlLauncher: /usr/bin/firefox
+urxvt.matcher.button: C1
+
+! ------------------------------------------------------------------------------
+! theme colors
+! ------------------------------------------------------------------------------
+
+
+URxvt*background:   #1e1f28
+URxvt*foreground:   #ebece6
+URxvt*cursorColor:   #e4e4e4
+URxvt*color0:   #000
+URxvt*color1:   #fb4245
+URxvt*color2:   #50fa7b
+URxvt*color3:   #f0fa8b
+URxvt*color4:   #49b9fe
+URxvt*color5:   #fb4cb3
+URxvt*color6:   #8be9fd
+URxvt*color7:   #ededec
+URxvt*color8:   #555555
+URxvt*color9:   #fb4245
+URxvt*color10:   #50fa7b
+URxvt*color11:   #f0fa8b
+URxvt*color12:   #49b9fe
+URxvt*color13:   #fb4cb3
+URxvt*color14:   #8be9fd
+URxvt*color15:   #ededec
