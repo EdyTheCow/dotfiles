@@ -172,10 +172,7 @@ type = internal/date
 interval = 5
 
 date = " %Y-%m-%d"
-date-alt = " %Y-%m-%d"
-
 time = " %H:%M"
-time-alt = %H:%M:%S
 
 format-prefix-foreground = #FFF
 label = "%date%  %time%"

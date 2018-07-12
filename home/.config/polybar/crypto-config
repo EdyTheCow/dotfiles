@@ -3,7 +3,26 @@ base_currency = USD
 display = both
 
 [bitcoin]
-icon = 
+icon = BTC:
+
+[bitcoin-cash]
+icon = BCH:
 
 [ethereum]
-icon = 
+icon = ETH:
+
+[ripple]
+icon = XRP:
+
+[monero]
+icon = XMR:
+
+[verge]
+icon = XVG:
+
+[steem]
+icon = STEEM:
+
+[dash]
+icon = DASH:
+
